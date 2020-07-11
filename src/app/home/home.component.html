@@ -1,60 +1,45 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Portfolio</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <!-- stylesheet -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<!-- stylesheet -->
 <link rel="stylesheet"href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"crossorigin="anonymous"/>
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/src/style.css">
 <!-- stylesheet -->
-</head>
-<body>
-  <!-- nav start -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand" href="#"><img src="..//assets/img/logo-1.png" alt="Logo" class="rounded-circle"style="width: 50px;" />
+<!-- nav start -->
+<div class="container-fluid bg-dark fixed-top">
+  <nav class="navbar text-dark">
+    <a class="navbar-brand justify-content-start" href="#">
+      <img src="..//assets/img/logo-1.png" alt="Logo" class="rounded-circle"style="width: 50px;" />
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" href="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fas fa-home p-2"></i>Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#work"
-            ><i class="fas fa-star p-2"></i> Recent Work</a
-          >
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about"
-            ><i class="fas fa-book-open p-2"></i>About</a
-          >
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact"
-            ><i class="fas fa-phone-square p-2"></i> Contact</a
-          >
-        </li>
-      </ul>
-    </div>
+    <ul class="nav float-left">
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fas fa-home p-2"></i>Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#work"
+          ><i class="fas fa-star p-2"></i> Recent Work</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about"
+          ><i class="fas fa-book-open p-2"></i>About</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact"
+          ><i class="fas fa-phone-square p-2"></i> Contact</a
+        >
+      </li>
+    </ul>
   </nav>
+</div>
 <!-- nav end -->
 <!-- header start -->
-<div class="jumbotron jumbotron-fluid back my-5 bg-info" id="">
+<div class="jumbotron jumbotron-fluid back my-5" id="">
   <div class="container text-light">
-    <h1 class="display-3 p-4 my-4">AI-VEE PAM</h1>
-    <p class="lead p-4 my-4">
+    <h1 class="display-3 p-5 my-4">AI-VEE PAM</h1>
+    <p class="lead p-5 my-4">
       I am a Information Systems Graduate. Web designer & front‑end developer focused on crafting
       clean & user‑friendly experiences.
     </p>
-    <button type="button" class="btn btn-outline-light p-4 my-4" href="#work">
+    <button type="button" class="btn btn-outline-light p-4 my-5" href="#work">
       CHECK MY WORK
     </button>
   </div>
@@ -68,26 +53,26 @@
  </p>
 </div>
 <div class="container text-center p-5 my-5">
-  <img src="..//assets/img/sisters-logo.jpg" class="rounded p-4 img-fluid" alt="" >
+  <img src="..//assets/img/sisters-logo.jpg" class="rounded p-4 " alt="" >
   <h1 class="">Sisters Clothing Hub</h1>
   <p class="lead">
     For Sisters Clothing Hub, I created an e-commerce website for their shop. I was responsible for UI design, interactions & front-end development.
  </p>
  
- <img src="..//assets/img/sisters.jpg" class="rounded  img-fluid" alt="">
+ <img src="..//assets/img/sisters.jpg" class="rounded" alt="">
 </div>
 <div class="container text-center p-5 my-5">
-  <img src="..//assets/img/sisters-logo.jpg" class="rounded p-4  img-fluid" alt="" >
+  <img src="..//assets/img/sisters-logo.jpg" class="rounded p-4 " alt="" >
   <h1 class="">BPC Website (Project only)</h1>
   <p class="lead">
     For Sisters Clothing Hub, I created an e-commerce website for their shop. I was responsible for UI design, interactions & front-end development.
  </p>
  
- <img src="..//assets/img/sisters.jpg" class="rounded  img-fluid" alt="">
+ <img src="..//assets/img/sisters.jpg" class="rounded" alt="">
 </div>
 <!-- recent work end -->
 <!-- about start here -->
-<div class="container-fluid text-white abo my-5 bg-info" id="about">
+<div class="container-fluid text-white abo my-5" id="about">
   <div class="container p-5 my-5">
   <h1 class="display-4 text-center ">ABOUT AI-VEE</h1>
   <p class="lead text-center">
@@ -142,7 +127,7 @@
           alt=""
         />
       </div>
-      <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center bg-info">
+      <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
         <img src="..//assets/img/css.png"class="img-fluid"alt=""/>
       </div>
 
@@ -156,23 +141,23 @@
 </div>
 <!-- about end here -->
 <!-- contact start here -->
-<div class="container-fluid abo p-4 text-light bg-info" id="contact">
+<div class="container-fluid abo p-4 text-light" id="contact">
   <h1 class="display-4 ">Let's collaborate.</h1>
   <p class="lead">If you like my work and have some cool project to work on, just send me direct message or contact me through social sites listed below.</p>
   <button type="button" class="btn btn-outline-light p-3 my-4" href="#work"><i class="fas fa-envelope p-2"></i>GET IN TOUCH</button>
-  
-    <div class="d-flex justify-content-start">
-      <p class="nav-item">
+  <nav class="navbar navbar-expand-sm abo">
+    <ul class="navbar-nav">
+      <li class="nav-item">
         <i class="fab fa-facebook-square p-2" style="font-size:36px"></i>
-      </p>
-      <p class="nav-item">
+      </li>
+      <li class="nav-item">
         <i class="fab fa-google p-2" style="font-size:36px"></i>
-      </p>
-      <p class="nav-item">
+      </li>
+      <li class="nav-item">
         <i class="fab fa-linkedin p-2" style="font-size:36px"></i>
-      </p>
-    </div>
- 
+      </li>
+    </ul>
+  </nav>
 
 </div>
 <!-- contact end here -->
@@ -180,12 +165,11 @@
 <div class="container-fluid bg-dark text-white text-center p-5">
 <p class="lead">All Rights Reserved 2020 | Aivs</p>
 <p>This site was built with great tools like Visual Studio Code, Bootstrap.org & W3schools.com. </p>
-<!-- <ul>
+<ul>
   <li class="text" *ngFor="let i of items | async">
     {{i.title}}
   </li>
-</ul> -->
+</ul>
 </div>
 <!-- footer end here -->
-</body>
-</html>
+
